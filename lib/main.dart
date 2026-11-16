@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'space_time_widget.dart';
 
 void main(){
   runApp(
@@ -16,7 +17,7 @@ class SpaceTime extends StatelessWidget{
   Widget build(BuildContext context){
     return const MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: FruitGameWidget(),
+          home: SpaceTimeWidget(),
     );
   }
 }
